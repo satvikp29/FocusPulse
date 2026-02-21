@@ -16,12 +16,7 @@ A Pomodoro timer with a simple task list. **No AI, no API keys** — works entir
 ## Run locally
 
 ```bash
-cd FocusPulse
-npm install
-cp .env.example .env
-npx prisma generate
-npx prisma db push
-npm run dev
+git clone https://github.com/satvikp29/FocusPulse.git && cd FocusPulse && npm install && cp .env.example .env && npx prisma generate && npx prisma db push && npm run dev
 ```
 
-Open http://localhost:3000
+Open http://localhost:3000 (or 3001 if port 3000 is in use)
